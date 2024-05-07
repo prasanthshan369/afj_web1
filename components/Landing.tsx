@@ -43,7 +43,7 @@ const Landing = () => {
                    <div className="relative bg-white rounded-lg shadow border-gray-200 border-2 ">
                    <MdClose onClick={()=>setIsOpen(!isOpen)} className='absolute text-red-600 right-2 top-1  cursor-pointer text-3xl'/>
             <div className="flex items-center justify-between px-2 pt-10 py-5 md:px-5  border-b rounded-t ">
-      <iframe  className='rounded-md w-[370px] h-[250px] md:w-[500px] md:h-[350px]' src="https://www.youtube.com/embed/CwsjN7fBmc4?si=tu0s000DboLtVmrS" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe  className='rounded-md w-[370px] h-[250px] md:w-[500px] md:h-[350px]' src="https://www.youtube.com/embed/CwsjN7fBmc4?si=tu0s000DboLtVmrS" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
 
             </div>
             </div>
